@@ -1,4 +1,4 @@
-# TaskFlow API 🚀
+# TaskFlow API 
 
 Una API REST robusta construida con **Node.js** y **Express** para la gestión de tareas, aplicando estructuras de datos fundamentales en memoria y una arquitectura limpia por capas.
 
@@ -29,7 +29,7 @@ El proyecto sigue el modelo de responsabilidad única:
     ```
     El servidor iniciará en: `http://localhost:3000`
 
-## 🌐 Endpoints Principales (Ejemplos cURL / PowerShell)
+## Endpoints Principales (Ejemplos cURL / PowerShell)
 
 ### 1. Backlog (Lista Enlazada)
 * **Crear Tarea:** `POST /backlog/tasks`
@@ -41,4 +41,5 @@ El proyecto sigue el modelo de responsabilidad única:
 
 ### 3. Queue (Cola de Procesamiento)
 * **Encolar tarea:** `POST /queue` (requiere `taskId`)
+
 * **Procesar siguiente:** `DELETE /queue`
